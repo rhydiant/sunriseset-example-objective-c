@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B0539461ADDC9BB006E77ED"
-               BuildableName = "SunriseSetWatch.app"
-               BlueprintName = "SunriseSetWatch"
+               BlueprintIdentifier = "4B0539821ADDC9C9006E77ED"
+               BuildableName = "SunriseSetWatch WatchKit App.app"
+               BlueprintName = "SunriseSetWatch WatchKit App"
                ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B05395F1ADDC9BB006E77ED"
-               BuildableName = "SunriseSetWatchTests.xctest"
-               BlueprintName = "SunriseSetWatchTests"
+               BlueprintIdentifier = "4B0539731ADDC9C9006E77ED"
+               BuildableName = "SunriseSetWatch WatchKit Extension.appex"
+               BlueprintName = "SunriseSetWatch WatchKit Extension"
+               ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B0539461ADDC9BB006E77ED"
+               BuildableName = "SunriseSetWatch.app"
+               BlueprintName = "SunriseSetWatch"
                ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B05395F1ADDC9BB006E77ED"
-               BuildableName = "SunriseSetWatchTests.xctest"
-               BlueprintName = "SunriseSetWatchTests"
-               ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4B0539461ADDC9BB006E77ED"
-            BuildableName = "SunriseSetWatch.app"
-            BlueprintName = "SunriseSetWatch"
+            BlueprintIdentifier = "4B0539821ADDC9C9006E77ED"
+            BuildableName = "SunriseSetWatch WatchKit App.app"
+            BlueprintName = "SunriseSetWatch WatchKit App"
             ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SunriseSetWatch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4B0539461ADDC9BB006E77ED"
-            BuildableName = "SunriseSetWatch.app"
-            BlueprintName = "SunriseSetWatch"
+            BlueprintIdentifier = "4B0539821ADDC9C9006E77ED"
+            BuildableName = "SunriseSetWatch WatchKit App.app"
+            BlueprintName = "SunriseSetWatch WatchKit App"
             ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B0539821ADDC9C9006E77ED"
+            BuildableName = "SunriseSetWatch WatchKit App.app"
+            BlueprintName = "SunriseSetWatch WatchKit App"
+            ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SunriseSetWatch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4B0539461ADDC9BB006E77ED"
-            BuildableName = "SunriseSetWatch.app"
-            BlueprintName = "SunriseSetWatch"
+            BlueprintIdentifier = "4B0539821ADDC9C9006E77ED"
+            BuildableName = "SunriseSetWatch WatchKit App.app"
+            BlueprintName = "SunriseSetWatch WatchKit App"
             ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B0539821ADDC9C9006E77ED"
+            BuildableName = "SunriseSetWatch WatchKit App.app"
+            BlueprintName = "SunriseSetWatch WatchKit App"
+            ReferencedContainer = "container:SunriseSetWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

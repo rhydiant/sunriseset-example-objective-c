@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Notification - SunriseSetWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SunriseSetWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>SunriseSetWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>4B05395F1ADDC9BB006E77ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4B0539821ADDC9C9006E77ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>

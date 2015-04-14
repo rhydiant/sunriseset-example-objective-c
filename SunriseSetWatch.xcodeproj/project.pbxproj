@@ -14,6 +14,16 @@
 		4B0539581ADDC9BB006E77ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0539571ADDC9BB006E77ED /* Images.xcassets */; };
 		4B05395B1ADDC9BB006E77ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0539591ADDC9BB006E77ED /* LaunchScreen.xib */; };
 		4B0539671ADDC9BC006E77ED /* SunriseSetWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0539661ADDC9BC006E77ED /* SunriseSetWatchTests.m */; };
+		4B0539801ADDC9C9006E77ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B05397F1ADDC9C9006E77ED /* Images.xcassets */; };
+		4B0539841ADDC9C9006E77ED /* SunriseSetWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 4B0539831ADDC9C9006E77ED /* SunriseSetWatch WatchKit App.app */; };
+		4B05398C1ADDC9C9006E77ED /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B05398A1ADDC9C9006E77ED /* Interface.storyboard */; };
+		4B05398E1ADDC9C9006E77ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B05398D1ADDC9C9006E77ED /* Images.xcassets */; };
+		4B0539911ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B0539741ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B05399F1ADDCA22006E77ED /* LaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B05399A1ADDCA22006E77ED /* LaunchController.m */; };
+		4B0539A01ADDCA22006E77ED /* SunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B05399C1ADDCA22006E77ED /* SunController.m */; };
+		4B0539A11ADDCA22006E77ED /* SunEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B05399E1ADDCA22006E77ED /* SunEvent.m */; };
+		4B0539A61ADDCA75006E77ED /* EDSunriseSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0539A41ADDCA75006E77ED /* EDSunriseSet.m */; };
+		4B0539A71ADDCA75006E77ED /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B0539A51ADDCA75006E77ED /* license.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +34,35 @@
 			remoteGlobalIDString = 4B0539461ADDC9BB006E77ED;
 			remoteInfo = SunriseSetWatch;
 		};
+		4B0539851ADDC9C9006E77ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B05393F1ADDC9BB006E77ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B0539821ADDC9C9006E77ED;
+			remoteInfo = "SunriseSetWatch WatchKit App";
+		};
+		4B05398F1ADDC9C9006E77ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B05393F1ADDC9BB006E77ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B0539731ADDC9C9006E77ED;
+			remoteInfo = "SunriseSetWatch WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B0539981ADDC9CA006E77ED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B0539911ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4B0539471ADDC9BB006E77ED /* SunriseSetWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunriseSetWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +78,23 @@
 		4B0539601ADDC9BB006E77ED /* SunriseSetWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseSetWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0539651ADDC9BC006E77ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B0539661ADDC9BC006E77ED /* SunriseSetWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunriseSetWatchTests.m; sourceTree = "<group>"; };
+		4B0539741ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SunriseSetWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0539771ADDC9C9006E77ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B0539781ADDC9C9006E77ED /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4B05397F1ADDC9C9006E77ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B0539831ADDC9C9006E77ED /* SunriseSetWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SunriseSetWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0539891ADDC9C9006E77ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B05398B1ADDC9C9006E77ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4B05398D1ADDC9C9006E77ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B0539991ADDCA22006E77ED /* LaunchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchController.h; sourceTree = "<group>"; };
+		4B05399A1ADDCA22006E77ED /* LaunchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchController.m; sourceTree = "<group>"; };
+		4B05399B1ADDCA22006E77ED /* SunController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunController.h; sourceTree = "<group>"; };
+		4B05399C1ADDCA22006E77ED /* SunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunController.m; sourceTree = "<group>"; };
+		4B05399D1ADDCA22006E77ED /* SunEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunEvent.h; sourceTree = "<group>"; };
+		4B05399E1ADDCA22006E77ED /* SunEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunEvent.m; sourceTree = "<group>"; };
+		4B0539A31ADDCA75006E77ED /* EDSunriseSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSunriseSet.h; sourceTree = "<group>"; };
+		4B0539A41ADDCA75006E77ED /* EDSunriseSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSunriseSet.m; sourceTree = "<group>"; };
+		4B0539A51ADDCA75006E77ED /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +112,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B0539711ADDC9C9006E77ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +127,8 @@
 			children = (
 				4B0539491ADDC9BB006E77ED /* SunriseSetWatch */,
 				4B0539631ADDC9BC006E77ED /* SunriseSetWatchTests */,
+				4B0539751ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension */,
+				4B0539871ADDC9C9006E77ED /* SunriseSetWatch WatchKit App */,
 				4B0539481ADDC9BB006E77ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +138,8 @@
 			children = (
 				4B0539471ADDC9BB006E77ED /* SunriseSetWatch.app */,
 				4B0539601ADDC9BB006E77ED /* SunriseSetWatchTests.xctest */,
+				4B0539741ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension.appex */,
+				4B0539831ADDC9C9006E77ED /* SunriseSetWatch WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +185,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4B0539751ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B0539A21ADDCA61006E77ED /* EDSunriseSet */,
+				4B0539991ADDCA22006E77ED /* LaunchController.h */,
+				4B05399A1ADDCA22006E77ED /* LaunchController.m */,
+				4B05399B1ADDCA22006E77ED /* SunController.h */,
+				4B05399C1ADDCA22006E77ED /* SunController.m */,
+				4B05399D1ADDCA22006E77ED /* SunEvent.h */,
+				4B05399E1ADDCA22006E77ED /* SunEvent.m */,
+				4B05397F1ADDC9C9006E77ED /* Images.xcassets */,
+				4B0539761ADDC9C9006E77ED /* Supporting Files */,
+			);
+			path = "SunriseSetWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4B0539761ADDC9C9006E77ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B0539771ADDC9C9006E77ED /* Info.plist */,
+				4B0539781ADDC9C9006E77ED /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B0539871ADDC9C9006E77ED /* SunriseSetWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4B05398A1ADDC9C9006E77ED /* Interface.storyboard */,
+				4B05398D1ADDC9C9006E77ED /* Images.xcassets */,
+				4B0539881ADDC9C9006E77ED /* Supporting Files */,
+			);
+			path = "SunriseSetWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		4B0539881ADDC9C9006E77ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B0539891ADDC9C9006E77ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B0539A21ADDCA61006E77ED /* EDSunriseSet */ = {
+			isa = PBXGroup;
+			children = (
+				4B0539A31ADDCA75006E77ED /* EDSunriseSet.h */,
+				4B0539A41ADDCA75006E77ED /* EDSunriseSet.m */,
+				4B0539A51ADDCA75006E77ED /* license.txt */,
+			);
+			name = EDSunriseSet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +248,12 @@
 				4B0539431ADDC9BB006E77ED /* Sources */,
 				4B0539441ADDC9BB006E77ED /* Frameworks */,
 				4B0539451ADDC9BB006E77ED /* Resources */,
+				4B0539981ADDC9CA006E77ED /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4B0539901ADDC9C9006E77ED /* PBXTargetDependency */,
 			);
 			name = SunriseSetWatch;
 			productName = SunriseSetWatch;
@@ -157,6 +278,39 @@
 			productReference = 4B0539601ADDC9BB006E77ED /* SunriseSetWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4B0539731ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0539951ADDC9CA006E77ED /* Build configuration list for PBXNativeTarget "SunriseSetWatch WatchKit Extension" */;
+			buildPhases = (
+				4B0539701ADDC9C9006E77ED /* Sources */,
+				4B0539711ADDC9C9006E77ED /* Frameworks */,
+				4B0539721ADDC9C9006E77ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B0539861ADDC9C9006E77ED /* PBXTargetDependency */,
+			);
+			name = "SunriseSetWatch WatchKit Extension";
+			productName = "SunriseSetWatch WatchKit Extension";
+			productReference = 4B0539741ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		4B0539821ADDC9C9006E77ED /* SunriseSetWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0539921ADDC9CA006E77ED /* Build configuration list for PBXNativeTarget "SunriseSetWatch WatchKit App" */;
+			buildPhases = (
+				4B0539811ADDC9C9006E77ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SunriseSetWatch WatchKit App";
+			productName = "SunriseSetWatch WatchKit App";
+			productReference = 4B0539831ADDC9C9006E77ED /* SunriseSetWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +326,12 @@
 					4B05395F1ADDC9BB006E77ED = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 4B0539461ADDC9BB006E77ED;
+					};
+					4B0539731ADDC9C9006E77ED = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4B0539821ADDC9C9006E77ED = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -190,6 +350,8 @@
 			targets = (
 				4B0539461ADDC9BB006E77ED /* SunriseSetWatch */,
 				4B05395F1ADDC9BB006E77ED /* SunriseSetWatchTests */,
+				4B0539731ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension */,
+				4B0539821ADDC9C9006E77ED /* SunriseSetWatch WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +371,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0539721ADDC9C9006E77ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0539A71ADDCA75006E77ED /* license.txt in Resources */,
+				4B0539841ADDC9C9006E77ED /* SunriseSetWatch WatchKit App.app in Resources */,
+				4B0539801ADDC9C9006E77ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0539811ADDC9C9006E77ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B05398C1ADDC9C9006E77ED /* Interface.storyboard in Resources */,
+				4B05398E1ADDC9C9006E77ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +414,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B0539701ADDC9C9006E77ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0539A11ADDCA22006E77ED /* SunEvent.m in Sources */,
+				4B0539A01ADDCA22006E77ED /* SunController.m in Sources */,
+				4B05399F1ADDCA22006E77ED /* LaunchController.m in Sources */,
+				4B0539A61ADDCA75006E77ED /* EDSunriseSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +432,16 @@
 			isa = PBXTargetDependency;
 			target = 4B0539461ADDC9BB006E77ED /* SunriseSetWatch */;
 			targetProxy = 4B0539611ADDC9BB006E77ED /* PBXContainerItemProxy */;
+		};
+		4B0539861ADDC9C9006E77ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B0539821ADDC9C9006E77ED /* SunriseSetWatch WatchKit App */;
+			targetProxy = 4B0539851ADDC9C9006E77ED /* PBXContainerItemProxy */;
+		};
+		4B0539901ADDC9C9006E77ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B0539731ADDC9C9006E77ED /* SunriseSetWatch WatchKit Extension */;
+			targetProxy = 4B05398F1ADDC9C9006E77ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +460,14 @@
 				4B05395A1ADDC9BB006E77ED /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		4B05398A1ADDC9C9006E77ED /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B05398B1ADDC9C9006E77ED /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,6 +607,62 @@
 			};
 			name = Release;
 		};
+		4B0539931ADDC9CA006E77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SunriseSetWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "SunriseSetWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		4B0539941ADDC9CA006E77ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SunriseSetWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "SunriseSetWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		4B0539961ADDC9CA006E77ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SunriseSetWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B0539971ADDC9CA006E77ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SunriseSetWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,6 +688,22 @@
 			buildConfigurations = (
 				4B05396E1ADDC9BC006E77ED /* Debug */,
 				4B05396F1ADDC9BC006E77ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B0539921ADDC9CA006E77ED /* Build configuration list for PBXNativeTarget "SunriseSetWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0539931ADDC9CA006E77ED /* Debug */,
+				4B0539941ADDC9CA006E77ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B0539951ADDC9CA006E77ED /* Build configuration list for PBXNativeTarget "SunriseSetWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0539961ADDC9CA006E77ED /* Debug */,
+				4B0539971ADDC9CA006E77ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

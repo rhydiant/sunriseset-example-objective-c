@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="LaunchController">
+                    <connections>
+                        <segue destination="e70-56-4Gd" kind="relationship" relationship="nextPage" id="Et6-Za-29Y"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--SunController-->
+        <scene sceneID="cca-p1-Gyg">
+            <objects>
+                <controller identifier="SunController" id="e70-56-4Gd" customClass="SunController">
+                    <items>
+                        <group width="1" alignment="center" verticalAlignment="center" layout="vertical" id="mJq-S8-TPn">
+                            <items>
+                                <imageView width="50" height="50" alignment="center" id="AKg-NJ-UUT" userLabel="icon"/>
+                                <label alignment="center" text="5:57am" id="ZtP-63-0Cq" userLabel="time">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <label alignment="center" text="Sunrise" id="PAy-98-Lp9" userLabel="name">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="eventImage" destination="AKg-NJ-UUT" id="XNS-D1-nfR"/>
+                        <outlet property="eventNameLabel" destination="PAy-98-Lp9" id="EkJ-7J-ovm"/>
+                        <outlet property="eventTimeLabel" destination="ZtP-63-0Cq" id="qVg-Vh-Ipm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="452" y="344"/>
+        </scene>
+    </scenes>
+</document>
